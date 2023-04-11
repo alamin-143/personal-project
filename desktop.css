@@ -1,0 +1,111 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{
+    
+}
+
+.logo{
+    text-align: left;
+    padding: 10px;
+}
+.navheader h1{
+    text-align: right;
+    padding: 10px;
+}
+.navmenu{
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.navmenu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    
+    background-color: teal;
+}
+.navmenu a:hover{
+    background-color: teal;
+    
+}
+.pro-img1{
+    
+    top: 20px;
+    right: 140px;
+    width: 120px;
+    transition: width 2s, transform  2s;
+
+}
+.pro-img1:hover{
+    width: 140px;
+    
+}
+.pro-img2{
+    width: 120px;
+    left: 140px;
+    bottom: 10px;
+    transition: width 2s, transform  2s;
+
+}
+.pro-img2:hover{
+    width: 140px;
+}
+.pro-desc p{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+   
+}
+#about-me{
+    
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+#about-me img{
+    margin-top: 120px;
+    height: 240px;
+    width: 240px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.achievement{
+    padding-right: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact-btn{
+    position: relative;
+}
+.btn-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#footer{
+    height: 100px;
+}
+#footer p{
+    margin-top: 15px;
+}
